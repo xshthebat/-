@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: auto;
+}
+#main
+{
+	position: relative;
+}
+.box
+{
+	padding:15px 0 0 15px;
+	float: left;
+}
+.pic
+{
+	 border: 1px solid #ccc;
+	 border-radius: 5px;
+	 box-shadow: 0 0 5px #ccc;
+    display: inline-block;
+    padding: 10px;
+    background-color:#FFE1FF;
+}
+.pic img{
+	width: 165px;
+	height: auto;
+}
